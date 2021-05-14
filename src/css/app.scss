@@ -1,0 +1,118 @@
+// app global css in SCSS form
+// Fonts (Safari, Android, iOS)
+
+// Avenir
+@font-face {
+  font-family: "Avenir Medium";
+  src: url("fonts/avenir/AvenirLTStd-Medium.woff2") format("woff2"),
+    url("/fonts/avenir/AvenirLTStd-Medium.woff") format("woff"),
+    url("/fonts/avenir/AvenirLTStd-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Book";
+  src: url("fonts/avenir/AvenirLTStd-Book.woff2") format("woff2"),
+    url("/fonts/avenir/AvenirLTStd-Book.woff") format("woff"),
+    url("/fonts/avenir/AvenirLTStd-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Roman";
+  src: url("fonts/avenir/AvenirLTStd-Roman.woff2") format("woff2"),
+    url("/fonts/avenir/AvenirLTStd-Roman.woff") format("woff"),
+    url("/fonts/avenir/AvenirLTStd-Roman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url("fonts/avenir/AvenirLTStd-Light.woff") format("woff"),
+    url("/fonts/avenir/AvenirLTStd-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Next Thin";
+  src: url("fonts/avenir/avenir-next-thin.woff") format("woff"),
+    url("/fonts/avenir/avenir-next-thin.ttf") format("truetype");
+}
+
+.avenir-medium {
+  font-family: "Avenir Medium", sans-serif;
+}
+.avenir-book {
+  font-family: "Avenir Book", sans-serif;
+}
+.avenir-roman {
+  font-family: "Avenir Roman", sans-serif;
+}
+.avenir-light {
+  font-family: "Avenir Light", sans-serif;
+}
+.avenir-next-thin {
+  font-family: "Avenir Next Thin", sans-serif;
+}
+// End Avenir
+
+// Futura
+@font-face {
+  font-family: "Futura Std Book";
+  src: url("fonts/futura/FuturaStdBook.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura Std Light";
+  src: url("fonts/futura/FuturaStdLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura Std Medium";
+  src: url("fonts/futura/FuturaStdMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura Std Heavy";
+  src: url("fonts/futura/FuturaStdHeavy.woff") format("woff");
+}
+
+.futura-medium {
+  font-family: "Futura Std Medium", sans-serif;
+}
+.futura-book {
+  font-family: "Futura Std Book", sans-serif;
+}
+.futura-light {
+  font-family: "Futura Std Light", sans-serif;
+}
+// End Futura
+
+.text-deep-blue {
+  color: $sidebar-blue;
+}
+.bg-deep-blue {
+  background: $sidebar-blue;
+}
+
+body {
+  color: #949494;
+  font-family: "Avenir Book", sans-serif;
+}
+
+#nprogress {
+  position: static !important;
+}
+
+#nprogress .bar,
+#nprogress .spinner {
+  z-index: 10000 !important;
+}
+
+.text-smaller {
+  font-size: 0.8em;
+}
+
+.text-small {
+  font-size: 0.7em;
+}
+
+.font-bold {
+  font-weight: bold;
+}
